@@ -4,22 +4,19 @@ def main():
   a = float(input("Enter the wavelength in nm: "))
   
   if 380 <= a < 450:
-      b = "Violet"
+      print("The relevant color is Violet")
   elif 450 <= a < 495:
-      b = "Blue"
+      print("The relevant color is Blue")
   elif 495 <= a < 570:
-      b = "Green"
+      print("The relevant color is Green")
   elif 570 <= a < 590:
-      b = "Yellow"
+      print("The relevant color is Yellow")
   elif 590 <= a < 620:
-      b = "Orange"
+      print("The relevant color is Orange")
   elif 620 <= a <= 750:
-      b = "Red"
+      print("The relevant color is Red") 
   else:
-      b = "Invalid input!"
-  
-  print(f"The relevant color is {b}")
-
+      Print('Invalid input!')
   pass
 
 if __name__ == "__main__":
