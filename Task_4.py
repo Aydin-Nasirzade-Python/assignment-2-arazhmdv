@@ -4,32 +4,32 @@ def main():
   il = int(input('Enter the year [ex. 2021]: '))
   
   if il < 0:
-      b = 'Invalid year!'
+      print('Invalid year!')
   elif il % 12 == 0:
-      b = 'Monkey'
+      print(f'{il} is the year of the Monkey')
   elif il % 12 == 1:
-      b = 'Rooster'
+      print(f'{il} is the year of the Rooster')
   elif il % 12 == 2:
-      b = 'Dog'
+      print(f'{il} is the year of the Dog')
   elif il % 12 == 3:
-      b = 'Pig'
+      print(f'{il} is the year of the Pig')
   elif il % 12 == 4:
-      b = 'Rat'
+      print(f'{il} is the year of the Rat')
   elif il % 12 == 5:
-      b = 'Ox'
+      print(f'{il} is the year of the Ox')
   elif il % 12 == 6:
-      b = 'Tiger'
+      print(f'{il} is the year of the Tiger')
   elif il % 12 == 7:
-      b = 'Hare'
+      print(f'{il} is the year of the Hare')
   elif il % 12 == 8:
-      b = 'Dragon'
+      print(f'{il} is the year of the Dragon')
   elif il % 12 == 9:
-      b = 'Snake'
+      print(f'{il} is the year of the Snake')
   elif il % 12 == 10:
-      b = 'Horse'
+      print(f'{il} is the year of the Horse')
   elif il % 12 == 11:
       b = 'Sheep'
-  print(f'{il} is the year of the {b}')
+      print(f'{il} is the year of the Sheep')
 
   pass
 
