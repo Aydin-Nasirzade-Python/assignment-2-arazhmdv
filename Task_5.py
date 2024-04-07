@@ -19,7 +19,7 @@ def main():
   elif m == 'September' and 23 <= d <= 30 or m == 'October' and 1 <= d <= 22:
       print('Your zodiac sign is Libra')
   elif m == 'October' and 23 <= d <= 31 or m == 'November' and 1 <= d <= 21:
-      print('Your zodiac sign is Scorpio')
+      print('Your zodiac sign is Scorpion')
   elif m == 'November' and 22 <= d <= 30 or m == 'December' and 1 <= d <= 21:
       print('Your zodiac sign is Sagittarius')
   elif m == 'December' and 22 <= d <= 31 or m == 'January' and 1 <= d <= 19:
